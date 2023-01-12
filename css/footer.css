@@ -87,7 +87,9 @@ padding: 0 40px;
 body>div.footer>div.b{
     width:90%;
     display: inline-block;
-    margin: 40px 20px;
+    margin: 40px 0;
+    position: relative;
+    right: calc(50% - 90%/2);
 }
 body>div.footer>div.b>*{
     width: 20%;
@@ -100,6 +102,7 @@ body>div.footer>div.b>*{
 
 }
 
+
 body>div.footer>div.b>div.b{
     position: relative;
     right: 3%;
@@ -111,10 +114,9 @@ body>div.footer>div.b>div.c{
 
 
 body>div.footer>div.b>div.d{
-    width: 30%;
+    width: 28%;
     position: relative;
-    right: 16%;
-  
+    right: 10%;
 }
 
 body>div.footer>div.b>div.a>h2 ,body>div.footer>div.b>div.b>h2 , body>div.footer>div.b>div.c>h2 , body>div.footer>div.b>div.d>h2 {
