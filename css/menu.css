@@ -63,7 +63,7 @@ div.menu > nav > ul > li > a >span{
   line-height: 40px;
   text-decoration: none;
   color: rgb(110, 110, 113);
-  font-size: 14px;
+  font-size: 16px;
   position: absolute;
   vertical-align: top;
   right: 1px;
@@ -78,7 +78,8 @@ div.menu > nav > ul > li >div.vl{
   height: 25px;
   margin-top: 7px;
   vertical-align: top;
-
+  position: relative;
+  right: -10px;
 
 }
 
@@ -91,9 +92,15 @@ div.menu > nav > ul > li > a:nth-of-type(6),
 div.menu > nav > ul > li > a:nth-of-type(7),
 div.menu > nav > ul > li > a:nth-of-type(8) {
   color: rgb(110, 110, 113);
-  font-size: 14px;
+  font-size: 16px;
 
 }
+div.menu > nav > ul > li > a:nth-of-type(6),
+div.menu > nav > ul > li > a:nth-of-type(7){
+  padding: 0 10px;
+
+}
+
 
 div.menu > nav > ul > li > a:nth-of-type(1):hover>div,
 div.menu > nav > ul > li > a:nth-of-type(2):hover>div,
@@ -408,30 +415,15 @@ div.menu > nav > ul > li > div.submenu > ul > li > a {
   text-align: right;
   line-height: 40px;
   color: rgb(0, 0, 0);
-  font-size: 14px;
+  font-size: 18px;
   padding: 0;
-  padding-right: 3px;
+  padding-right: 5px;
   font-weight: 500;
+  /* background-color: coral; */
 }
 
 
-/* div.menu > nav > ul > li > div.submenu > ul > li>a:nth-of-type(2) > div>div>ul>li>ul>li>div.vll{
-  display: inline-block;
-  border-left: 2px solid rgb(255, 16, 16);
-  height: 25px;
-  line-height: 25px;
-  position: absolute;
-  right: 93%;
-  top: 15px;
 
-} */
-/* div.vll{
-  display: inline-block;
-  border-left: 2px solid rgb(255, 16, 16);
-  height: 15px;
-  line-height: 25px;
-  position: absolute;
-} */
 .vll{
   border-right: 2px solid rgb(255, 16, 16);
   height: 10px;
